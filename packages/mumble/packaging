@@ -1,0 +1,16 @@
+set -e # exit immediately if a simple command exits with a non-zero status
+set -u # report the usage of uninitialized variables
+
+export HOME=/var/vcap
+
+tar zxf mumble/murmur-static_x86-1.2.3.tar
+
+if [[ $? != 0 ]] ; then
+  echo "Failed extracting mumble"
+  exit 1
+fi
+
+(
+  cd murmur-static_x86-1.2.3
+  cp * $BOSH_INSTALL_TARGET
+)
