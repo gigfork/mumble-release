@@ -3,7 +3,7 @@ set -u # report the usage of uninitialized variables
 
 export HOME=/var/vcap
 
-tar zxf mumble/murmur-static_x86-1.2.3.tar
+tar xf mumble/murmur-static_x86-1.2.3.tar
 
 if [[ $? != 0 ]] ; then
   echo "Failed extracting mumble"
