@@ -1,0 +1,6 @@
+--- 
+name: mumble
+packages: 
+- mumble
+templates: 
+  mumble_ctl: bin/mumble_ctl
