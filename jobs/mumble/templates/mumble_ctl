@@ -22,7 +22,7 @@ PIDFILE=$RUN_DIR/mumble.pid
 
 export PATH=/var/vcap/packages/ruby/bin:$PATH
 
-COMMAND=${COMMAND:-/var/vcap/packages/mumble/bin/murmur.x86 -ini /var/vcap/jobs/redis/config/murmur.ini}
+COMMAND=${COMMAND:-/var/vcap/packages/mumble/murmur.x86}
 HOME=${HOME:-/home/vcap}
 
 case $1 in
