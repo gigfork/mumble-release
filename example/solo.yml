@@ -1,3 +1,5 @@
 jobs: 
 - mumble
-properties: {}
+properties:
+    mumble:
+        port: 64739

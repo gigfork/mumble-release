@@ -4,4 +4,4 @@ packages:
 - mumble
 templates: 
   mumble_ctl: bin/mumble_ctl
-  murmur.ini.erb: jobs/mumble/templates/murmur.ini.erb
+  murmur.ini.erb: config/murmur.ini

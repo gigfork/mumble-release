@@ -70,7 +70,7 @@ icesecretwrite=
 welcometext="<br />Welcome to this server running <b>Murmur</b>.<br />Enjoy your stay!<br />"
 
 # Port to bind TCP and UDP sockets to
-port=64738
+port=<%= properties.mumble.port || 64738 %>
 
 # Specific IP or hostname to bind to.
 # If this is left blank (default), murmur will bind to all available addresses.
