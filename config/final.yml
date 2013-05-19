@@ -3,4 +3,4 @@ blobstore:
   provider: local
   options: 
     blobstore_path: /tmp/blobstore
-min_cli_version: 0.19.4
+min_cli_version: 1.0.3
