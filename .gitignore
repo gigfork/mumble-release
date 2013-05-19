@@ -16,3 +16,5 @@ blobs/*
 #*
 Vagrantfile
 scripts
+.nise-bosh-install.sh
+.nise-bosh-manifest.yml
