@@ -34,7 +34,9 @@ case $1 in
 
     echo $$ > $PIDFILE
 
-    exec $COMMAND >>$LOG_DIR/mumble.stdout.log 2>>$LOG_DIR/mumble.stderr.log
+    exec $COMMAND & >>$LOG_DIR/mumble.stdout.log 2>>$LOG_DIR/mumble.stderr.log
+
+    echo $! > $PIDFILE
     ;;
 
   stop)
