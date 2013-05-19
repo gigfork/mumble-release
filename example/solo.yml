@@ -1,5 +1,0 @@
-jobs: 
-- mumble
-properties:
-    mumble:
-        port: 64738
