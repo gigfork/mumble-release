@@ -1,0 +1,11 @@
+---
+deployment: mumble
+
+jobs: 
+- name: mumble
+  template:
+  - mumble
+
+properties:
+    mumble:
+        port: 64738
